@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AppScanner</string>
+    <string name="btn_scan">Scanner</string>
+    <string name="btn_message">Message</string>
+    <string name="btn_gps">GPS</string>
+    <string name="btn_scan_gps">Scanner localisation</string>
+    <string name="btn_scan_benne">Scanner benne</string>
+    <string name="tf_numero">Numéro</string>
+    <string name="tf_message">Message</string>
+    <string name="tf_message_benne">Message</string>
+    <string name="btn_envoyer">Envoyer</string>
+    <string name="map_key" translatable="false">AIzaSyAGCeBYF_ePvMOHkoosFijx_e4tuTcHadg</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="@color/teal_200"
+tools:context=".FragmentGestionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Numéro de téléphone"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Numéro"
+            android:textColorHint="@color/black"
+            android:backgroundTint="@color/white">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/numero_benne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:inputType="number"
+                android:maxLines="1"
+                android:maxLength="10"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Message de la benne"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Message de la benne"
+            android:textColorHint="@color/black"
+            android:backgroundTint="@color/white">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/message_benne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:inputType="text"
+                android:maxLines="1"
+                android:maxLength="250"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:layout_width="200dp"
+            android:id="@+id/btn_envoyer_mess_benne"
+            style="@style/button_scanner"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="@string/btn_envoyer">
+
+        </Button>
+    </LinearLayout>
+
+</FrameLayout>

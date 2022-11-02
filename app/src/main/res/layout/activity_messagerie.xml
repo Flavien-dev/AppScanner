@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="198dp"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tf_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="10dp"
+            android:inputType="text"
+            android:maxLength="255"
+            android:maxLines="1"
+            android:hint="@string/tf_message"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="2dp"
+            tools:layout_editor_absoluteY="82dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tf_num_tel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="10dp"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:hint="@string/tf_numero"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="2dp"
+            tools:layout_editor_absoluteY="82dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_envoyer"
+        style="@style/button_scanner"
+        android:layout_width="148dp"
+        android:layout_height="91dp"
+        android:text="@string/btn_envoyer"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="534dp" />
+
+</LinearLayout>
